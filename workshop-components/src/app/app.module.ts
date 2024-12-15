@@ -9,6 +9,7 @@ import { MainComponent } from './main/main.component';
 import { ThemesListComponent } from './themes-list/themes-list.component';
 import { PostsListComponent } from './posts-list/posts-list.component';
 import {HttpClientModule} from '@angular/common/http';
+import { PostItemComponent } from './posts-list/post-item/post-item.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import {HttpClientModule} from '@angular/common/http';
     MainComponent,
     ThemesListComponent,
     PostsListComponent,
+    PostItemComponent,
     
     
     
