@@ -9,13 +9,18 @@ import { Post } from '../types/post';
 })
 export class PostsListComponent {
   posts: Post[] = [];
-  constructor(private api: ApiService) {}
+  isLoading: boolean = true;
+  constructor(private api: ApiService) { }
 
   ngOnInit(): void {
     this.api.getPosts().subscribe((posts) => {
       console.log(posts)
       this.posts = posts;
-    })
-  }
 
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 2000)
+    })
+
+  }
 }
