@@ -9,7 +9,7 @@ const routes: Routes = [
         path: 'themes',
         children: [
             { path: '', pathMatch: 'full', component: MainComponent },
-            { path: 'themeId', component: CurrentThemeComponent },
+            { path: ':themeId', component: CurrentThemeComponent },
         ],
     },
 {
