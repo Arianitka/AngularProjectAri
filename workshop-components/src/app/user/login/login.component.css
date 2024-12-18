@@ -1,4 +1,6 @@
 /*login register forms  */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
 
 form.login, form.register {
     width: 40%;
@@ -26,7 +28,10 @@ form.login, form.register {
     flex: 0 1 100%;
     border: 1px solid;
     padding: 0.3em;
-    border-left: 0.3em solid green;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-left: 0.3em solid white;
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
 }
@@ -46,16 +51,17 @@ form.login, form.register {
 }
 
 .login i, .register i {
+    color: white;
     border: 1px solid;
     border-right: none;
     padding: 0.55em;
     border-top-left-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
-    background-color: #e9ecef;
+    background-color: black
 }
 
 .login a, .register a {
-    color: #007bff;
+    color: red;
 }
 
 .login a:hover, .register a:hover {

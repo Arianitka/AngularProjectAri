@@ -1,5 +1,8 @@
 /*login register forms  */
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+
 form.login, form.register {
     width: 40%;
     margin: 2em auto 0;
@@ -23,10 +26,11 @@ form.login, form.register {
 }
 
 .login input, .register input {
+    background-color: black;
+    color: white;
     flex: 0 1 100%;
-    border: 1px solid;
     padding: 0.3em;
-    border-left: 0.3em solid green;
+    border: 1px solid white;
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
 }
