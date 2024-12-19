@@ -6,6 +6,8 @@ export function emailValidator(domains: string[]) : ValidatorFn {
     
     return (control) => {
         const isEmailValid = control.value === '' || regExp.test(control.value)
-      return null;
+
+
+      return isEmailValid ? null : { emailValidator: true};
     }
   }
