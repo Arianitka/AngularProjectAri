@@ -6,6 +6,7 @@ import { CurrentThemeComponent } from "./current-theme/current-theme.component";
 import { AuthActivate } from "../guards/auth.activate";
 import { ThemesListComponent } from "./themes-list/themes-list.component";
 import { SearchComponent } from "./search/search.component";
+import { TrendingComponent } from "./trending-themes/trending-themes.component";
 
 const routes: Routes = [
     {
@@ -28,6 +29,10 @@ const routes: Routes = [
     {
         path: 'search',
         component: SearchComponent,
+    },
+    {
+        path: 'trending',
+        component: TrendingComponent,
     }
 ];
 

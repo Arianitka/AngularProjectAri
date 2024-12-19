@@ -9,6 +9,8 @@ import { SharedModule } from '../shared/shared.module';
 import { MainComponent } from './main/main.component';
 import { FormsModule } from '@angular/forms';
 import { SearchComponent } from './search/search.component';
+import { TrendingComponent } from './trending-themes/trending-themes.component';
+
 
 
 
@@ -20,7 +22,9 @@ import { SearchComponent } from './search/search.component';
     ThemesListComponent,
     PostsListComponent,
     MainComponent,
-    SearchComponent
+    SearchComponent,
+    TrendingComponent
+    
   ],
   imports: [
     CommonModule,

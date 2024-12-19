@@ -1,0 +1,132 @@
+
+body {
+    background-color: #000; 
+    color: #f00; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  
+  app-loader {
+    color: #f00;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  
+  .theme-title h2 {
+    font-size: 3em;
+    color: #f00;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); 
+  }
+  
+  
+  .theme-container {
+    background-color: #222; 
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .theme-container:hover {
+    background-color: #333; 
+  }
+  
+  
+  .theme-name a {
+    color: #f00;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .theme-name a:hover {
+    color: #ff3333; 
+  }
+  
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+ 
+  .subscribers {
+    text-align: right;
+    font-size: 1.2em;
+  }
+  
+  .subscribers span {
+    font-weight: bold;
+  }
+  
+  
+  .nick-name p,
+  p {
+    margin: 5px 0;
+  }
+  
+  
+  .theme-name-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .theme-name-wrapper .columns {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .theme-name-wrapper .columns div {
+    margin-bottom: 10px;
+  }
+  
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .theme-container {
+      width: 90%;
+    }
+  
+    .theme-name-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .columns {
+      flex-direction: column;
+    }
+  
+    .subscribers {
+      text-align: left;
+    }
+  }
+  
