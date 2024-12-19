@@ -1,11 +1,13 @@
 /* welcome component */
-
 .welcome {
     padding: 0.3em 0.5em;
     border: 1px solid #999;
     border-radius: 0.3em;
     font-size: 0.8em;
     margin-top: 1em;
+    max-width: 500px; 
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .welcome h3 {
@@ -44,4 +46,5 @@
 
 .welcome li {
     list-style: none;
+    width: auto;
 }
