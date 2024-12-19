@@ -84,3 +84,13 @@ p.error {
 .input-error {
     border-left-color: red;
 }
+button.cancel {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+button.public {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
