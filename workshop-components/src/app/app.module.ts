@@ -10,6 +10,7 @@ import { UserModule } from './user/user.module';
 import { ThemeModule } from './theme/theme.module';
 import { AddThemeComponent } from './theme/add-theme/add-theme.component';
 import { ErrorComponent } from './error/error.component';
+// import { SearchComponent } from './theme/search/search.component';
 
 
 
@@ -20,6 +21,7 @@ import { ErrorComponent } from './error/error.component';
     HomeComponent,
     AddThemeComponent,
     ErrorComponent,
+    // SearchComponent,
     
   ],
   imports: [
@@ -30,6 +32,7 @@ import { ErrorComponent } from './error/error.component';
     UserModule,
     ThemeModule,
     AppRoutingModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

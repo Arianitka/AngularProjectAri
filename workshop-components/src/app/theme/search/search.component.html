@@ -1,0 +1,27 @@
+<div class="search-container">
+    <input 
+      type="text" 
+      [(ngModel)]="searchQuery" 
+      (input)="onSearch()" 
+      placeholder="Search themes..." 
+      class="search-input" 
+    />
+  
+    <div *ngIf="isLoading" class="loader">
+      Loading...
+    </div>
+  
+    <div *ngIf="searchResults.length > 0">
+      <div *ngFor="let theme of searchResults" class="theme-item">
+        <h3>{{ theme.themeName }}</h3>
+        <p>Username: {{ theme.userId.username }}</p>
+        <p>Created on: {{ theme.created_at }}</p>
+      
+      </div>
+    </div>
+  
+    <div *ngIf="searchResults.length === 0 && !isLoading">
+      <p>No themes found.</p>
+    </div>
+  </div>
+  
