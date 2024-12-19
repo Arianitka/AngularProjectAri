@@ -90,11 +90,12 @@ ul li {
 }
 .mini-navbar ul {
     background-color: grey;
-    border-radius: 5px;
+    border-radius: 3px;
+	
 }
 
 .mini-navbar ul li+li {
-    border-left: 1px solid lightgrey;
+    border-left: 1px solid red;
     padding-left: .5em;
 }
 
