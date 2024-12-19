@@ -1,23 +1,5 @@
   <!-- homepage -->
+   
   <div class="container">
-    <div class="welcome">
-        <h3>Welcome to the Sport Cars page!</h3>
-        <p>Lorem ipsum dolor sit amet. Nesciun culpa dignissimos porro consectetur eveniet voluptatum praesentium minima repudiandae perspiciatis, sunt provident eos doloribus magni eligendi voluptate exercitationem atque ad?</p>
-        <div class="logged">
-            <ul>
-                <li>
-                    <a routerLink="/login">
-                        <i class="fas fa-sign-in-alt"></i>
-                        Login
-                    </a>
-                </li>
-                <li>
-                    <a routerLink="/register">
-                        <i class="fas fa-user-plus"></i>
-                        Register
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>        
-</div>
+    <app-welcome [isLoggedIn]="isLoggedIn"/>
+  </div>

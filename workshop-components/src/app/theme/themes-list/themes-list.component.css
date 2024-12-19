@@ -1,0 +1,11 @@
+.subscribe {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.unsubscribe {
+    background-color: darkgray;
+    color: black;
+    font-weight: bold;
+}

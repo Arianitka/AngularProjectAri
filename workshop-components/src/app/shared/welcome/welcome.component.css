@@ -1,0 +1,54 @@
+/* welcome component */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+
+
+.welcome {
+    padding: 0.3em 0.5em;
+    border: 1px solid red;
+    border-radius: 0.3em;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.welcome h3 {
+    background-color: gray;
+    border-radius: 0.3em;
+    width: 100%;
+    padding: 0.3em 1em;
+}
+
+.welcome p {
+    padding: 1em;
+    border-bottom: 1px solid red;
+    font-style: normal;
+}
+
+.welcome a {
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    border: none;
+    border-radius: 0.3em;
+    padding: 0.5em 5.2em;
+    margin: 1em;
+}
+
+.welcome a:hover {
+    cursor: pointer;
+}
+
+.welcome ul {
+    border: 1em red;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 1em;
+}
+
+.welcome li {
+    list-style: none;
+    border: none;
+    background-color: black;
+    
+}
